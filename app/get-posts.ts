@@ -27,3 +27,4 @@ export const getPosts = async () => {
   });
   return posts;
 };
+

@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "id": "SEC2-security",
+      "date": "May 13, 2024",
+      "title": "Sec 2 Security."
+    },
+    {
       "id": "making-the-web-faster",
       "date": "June 23, 2021",
       "title": "Making the Web. Faster."

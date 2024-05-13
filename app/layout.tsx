@@ -8,26 +8,27 @@ import { Footer } from "./footer";
 import { doge } from "./doge";
 
 const inter = Inter({ subsets: ["latin"] });
+//  text font For the headlines, Neutraface will be used and for the bodies of the text, Neris.
 
 export const metadata = {
-  title: "Guillermo Rauch's blog",
+  title: "BuildWithin's blog",
   description:
-    "Guillermo Rauch is the CEO and founder of Vercel, a software engineer, and the creator of Next.js, Mongoose, Socket.io and other open source libraries.",
+    "Streamline training and mentoring with our comprehensive workforce solutions. Launch apprenticeships, access training materials, and leverage AI coaching",
   openGraph: {
-    title: "Guillermo Rauchg's blog",
+    title: "BuildWithin's blog",
     description:
-      "Guillermo Rauch is the CEO and founder of Vercel, a software engineer, and the creator of Next.js, Mongoose, Socket.io and other open source libraries.",
-    url: "https://rauchg.com",
-    siteName: "Guillermo Rauchg's blog",
+      "Streamline training and mentoring with our comprehensive workforce solutions. Launch apprenticeships, access training materials, and leverage AI coaching",
+    url: "https://www.buildwithin.com/",
+    siteName: "BuildWithin's blog",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@rauchg",
-    creator: "@rauchg",
+    site: "@JoinBuildwithin",
+    creator: "@JoinBuildwithin",
   },
-  metadataBase: new URL("https://rauchg.com"),
+  metadataBase: new URL("https://www.buildwithin.com/"),
+  // 
 };
-
 export const viewport = {
   themeColor: "transparent",
 };
