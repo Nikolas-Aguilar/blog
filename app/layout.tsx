@@ -23,8 +23,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@JoinBuildwithin",
-    creator: "@JoinBuildwithin",
+    site: "@buildwithintech",
+    creator: "@buildwithintech",
   },
   metadataBase: new URL("https://www.buildwithin.com/"),
   // 
