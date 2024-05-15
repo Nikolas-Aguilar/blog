@@ -3,14 +3,15 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { useMemo } from "react";
 
+
 export function Logo() {
   const pathname = usePathname();
-  const theme_local = window.localStorage.getItem("theme")
-  console.log("pipoca",theme_local)
-  const theme = useMemo(() => {
-    if ( theme_local === "dark") return {textColor: "#f1f2f2",logoColor: "#f1f2f2"};
-    return {textColor: "#110F10", logoColor: "#110F10"};
-  }, [theme_local]);
+  // const theme_local = window.localStorage.getItem("theme")
+  // console.log("pipoca",theme_local)
+  // const theme = useMemo(() => {
+  //   if ( theme_local === "dark") return {textColor: "#f1f2f2",logoColor: "#f1f2f2"};
+  //   return {textColor: "#110F10", logoColor: "#110F10"};
+  // }, [theme_local]);
 
   // const theme = props.theTheme;
   // console.log(props.theTheme)
@@ -22,7 +23,8 @@ export function Logo() {
         // target="_blank"
         // className="inline-flex hover:bg-gray-200 dark:hover:bg-[#313131] active:bg-gray-300 dark:active:bg-[#242424] items-center p-2 rounded-sm transition-[background-color] whitespace-nowrap -mr-2"
       >
-        <BuildWithinLogoAndName theme={theme}/>
+        <BuildWithinLogoAndName />
+        {/* theme={theme} */}
       </a>
         // <span className="cursor-default pr-2">BuildWithin logo main page!</span>
       ) : (
@@ -41,9 +43,9 @@ export function Logo() {
 
 function BuildWithinLogoAndName(props) {
   // const { textColor = "#f1f2f2", logoColor = "#f1f2f2"} = props;   //white logo
-  // const { textColor = "#110F10", logoColor = "#110F10"} = props;  //black logo
-  const {textColor, logoColor} = props.theme
-  console.log(props)
+  const { textColor = "#110F10", logoColor = "#110F10"} = props;  //black logo
+  // const {textColor, logoColor} = props.theme
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -112,3 +114,7 @@ function BuildWithinLogoAndName(props) {
   );
 };
 
+
+
+
+// const { textColor, logoColor } = theme === "dark" ? { textColor: "#fff", logoColor: "#fff" } : { textColor: "#000", logoColor: "#000" }
