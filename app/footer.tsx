@@ -10,11 +10,6 @@ export function Footer() {
         </A>
         )
       </div>
-      {/* <div>
-        <A target="_blank" href="https://github.com/rauchg/blog">
-          Source
-        </A>
-      </div> */}
     </footer>
   );
 }
