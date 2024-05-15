@@ -104,7 +104,6 @@ export function ThemeToggle() {
             newPreference = null;
             localStorage.removeItem("theme");
           } else {
-            console.log("local set", newPreference)
             localStorage.setItem("theme", newPreference);
           
           }

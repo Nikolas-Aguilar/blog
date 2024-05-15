@@ -59,16 +59,13 @@ export default async function AboutOG() {
                 BuildWithin
               </div>
               <div tw="flex mb-5" style={font("Roboto Mono 400")}>
-                <span tw="text-gray-400 mr-3">&mdash;</span> CEO and Founder of
-                Vercel
+                <span tw="text-gray-400 mr-3">&mdash;</span> Launch, track, and scale your On-the-Job training programs. All on one platform
               </div>
               <div tw="flex mb-5" style={font("Roboto Mono 400")}>
-                <span tw="text-gray-400 mr-3">&mdash;</span> Creator of Next.js,
-                Socket.IO, Mongoose
+                <span tw="text-gray-400 mr-3">&mdash;</span> On-the-Job Training Software
               </div>
               <div tw="flex" style={font("Roboto Mono 400")}>
-                <span tw="text-gray-400 mr-3">&mdash;</span> Lives in San
-                Francisco, CA
+                <span tw="text-gray-400 mr-3">&mdash;</span> Real Time Insights
               </div>
             </div>
           </div>
